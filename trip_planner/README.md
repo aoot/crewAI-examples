@@ -67,7 +67,7 @@ The CrewAI framework supports integration with local models, such as Ollama, for
 - Instantiate Ollama Model: Create an instance of the Ollama model. You can specify the model and the base URL during instantiation. For example:
 
 ```python
-from langchain.llms import Ollama
+from langchain_community.llms import Ollama
 ollama_openhermes = Ollama(model="agent")
 # Pass Ollama Model to Agents: When creating your agents within the CrewAI framework, you can pass the Ollama model as an argument to the Agent constructor. For instance:
 
